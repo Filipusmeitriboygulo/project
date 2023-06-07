@@ -1,0 +1,40 @@
+:root {
+    /* color */
+    --primaryColor : #EEDDCC;
+    --secondaryColor : #fff;
+    /* background: #EEDDCC; */
+    /* font */
+    --mainfont:'Lato', sans-serif;
+    --headingfont: 'Frank Ruhl Libre', serif;
+}
+
+body {
+    font-family: var(--mainfont);
+    background: var(--primaryColor);
+}
+.heading{
+    font-family: var(--headingfont);
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.subheading{
+    font-family: var(--mainfont);
+    font-size: 16px;
+    font-weight: 400 ;
+}
+
+/* Navbar */
+
+.navbar-brand{
+    font-family: var(--mainfont);
+    font-weight: 900;
+}
+
+.nav-link.active {
+    font-weight: 700; 
+}
+
+.container h1{
+    font-family: var(--headingfont);
+}
