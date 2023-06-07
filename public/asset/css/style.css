@@ -2,6 +2,7 @@
     /* color */
     --primaryColor : #EEDDCC;
     --secondaryColor : #fff;
+    --thirdColor : #34251F;
     /* background: #EEDDCC; */
     /* font */
     --mainfont:'Lato', sans-serif;
@@ -14,7 +15,7 @@ body {
 }
 .heading{
     font-family: var(--headingfont);
-    font-size: 24px;
+    font-size: 32px;
     font-weight: 700;
 }
 
@@ -34,7 +35,31 @@ body {
 .nav-link.active {
     font-weight: 700; 
 }
-
-.container h1{
-    font-family: var(--headingfont);
+.home {
+    padding: 14rem;
 }
+.home .heading{
+    font-size: 55px !important;
+
+}
+.home .subheading{
+    font-size: 20px !important;
+    font-family: var(--mainfont);
+}
+
+.btn-home .btn-shop {
+    background-color: var(--thirdColor);
+    font-size: 20px !important; 
+}
+
+
+@media screen and (min-width :768px) {
+    .home {
+        padding-top :14rem; 
+    }
+    .home .heading{
+        font-size: 55px !important;
+    
+    }  
+}
+
