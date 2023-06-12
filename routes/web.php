@@ -24,3 +24,11 @@ Route::get('/beranda', function() {
 Route::get('/promo',function() {
     return view('promo');
 });
+
+Route::get('/profile', function() {
+    return view('profile');
+});
+
+Route::get('/signup', function() {
+    return view('signup');
+});

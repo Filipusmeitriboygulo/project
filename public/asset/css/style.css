@@ -1,67 +1,115 @@
 :root {
-    /* color */
-    --primaryColor : #EEDDCC;
-    --secondaryColor : #fff;
-    --thirdColor : #34251F;
-    /* background: #EEDDCC; */
-    /* font */
-    --mainfont:'Lato', sans-serif;
+    /* Warna */
+    --primaryColor: #EEDDCC;
+    --secondaryColor: #fff;
+    --thirdColor: #34251F;
+    /* Font */
+    --mainfont: 'Lato', sans-serif;
     --headingfont: 'Frank Ruhl Libre', serif;
-}
-
-body {
+  }
+  *{
+    box-sizing: border-box !important;
+  }
+  
+  body {
     font-family: var(--mainfont);
-    /* color: var(--secondaryColor); */
-    background: var(--primaryColor);
-    
-}
-.heading{
+  }
+  
+  .heading {
     font-family: var(--headingfont);
-    font-size: 32px;
+    font-size: 24px;
     font-weight: 700;
-}
-
-.subheading{
+  }
+  
+  .subheading {
     font-family: var(--mainfont);
     font-size: 16px;
-    font-weight: 400 ;
-}
-
-/* Navbar */
-
-.navbar-brand{
+    font-weight: 300;
+  }
+  
+  /* Navbar */
+  .navbar-brand {
     font-family: var(--mainfont);
     font-weight: 900;
-}
+  }
+  .navbar {
+    background-color: var(--primaryColor) !important;
+  }
 
-.nav-link.active {
-    font-weight: 700; 
-}
-.home {
-    padding: 14rem;
-}
-.home .heading{
-    font-size: 55px !important;
-
-}
-.home .subheading{
-    font-size: 20px !important;
+  .navbar-brand span {
+     color: var(--thirdColor);
+     
+  }
+  
+  .nav-link {
     font-family: var(--mainfont);
-}
+  }
+  .nav-link.active {
+    font-weight: 700;
+    color: var(--thirdColor) !important;
+  }
+  .icons-home i {
+    font-size: 1.8rem;
+    color: var(--thirdColor);
+  }
+  
 
-.btn-home .btn-shop {
-    background-color: var(--thirdColor);
-    font-size: 20px !important; 
-}
-
-
-@media screen and (min-width :768px) {
-    .home {
-        padding-top :14rem; 
-    }
-    .home .heading{
-        font-size: 55px !important;
+  /* Home */
+  .home {
+    padding: 14rem;
+    background-color: var(--primaryColor);
+    height: 650px;
+    padding-top: 12rem;
     
-    }  
-}
-
+  }
+  
+  .home .heading {
+    color: var(--thirdColor);
+    font-size: 55px !important;
+  }
+  
+  .home .subheading {
+    font-size: 16px;
+    font-family: var(--mainfont);
+    color: var(--thirdColor);
+  }
+  
+  .btn-home .btn-shop {
+    background-color: var(--thirdColor);
+    border:2px solid var(--primaryColor); 
+    font-family: var(--mainfont);
+    font-weight: 700;
+  }
+  
+  @media screen and (min-width: 768px) {
+    .home {
+        padding-top: 14rem; 
+    }
+    .home .heading {
+        color: var(--thirdColor);
+        font-size: 36px ;
+      } 
+  }
+  @media screen and (min-width:992px) {
+    .home .content-left {
+        padding-bottom: 40px;
+    }   
+    .home .heading {
+        font-size: 46px ;
+    } 
+    .home .subheading {
+        font-size: 20px ;
+      }  
+    .home .img{
+        right: 0;
+        bottom :-20%;
+    }
+    .home .container .home.row {
+        height: 100%; 
+    }
+  }
+  
+  
+  
+  
+  
