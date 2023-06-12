@@ -20,3 +20,7 @@ Route::get('/', function () {
 Route::get('/beranda', function() {
     return view('index');
 });
+
+Route::get('/promo',function() {
+    return view('promo');
+});

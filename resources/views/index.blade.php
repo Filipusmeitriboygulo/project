@@ -26,8 +26,8 @@
     <div class="row">
       <div class="col">
         <nav class="navbar navbar-expand-lg fixed-top ">
-          <div class="container">
-            <a class="navbar-brand" href="#">CS_Outlet88</a>
+          <div class="container-fluid">
+            <a class="navbar-brand ms-5 mt-4" href="#">CS_Outlet88</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
               <span class="navbar-toggler-icon"></span>
             </button>
@@ -37,7 +37,7 @@
                   <a class="nav-link me-4 active"  h ref="#">Home</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link me-4 active"  href="#">Promo</a>
+                  <a class="nav-link me-4 active"  href="promo">Promo</a>
                 </li>
                 <li class="nav-item">
                   <a class="nav-link me-4 active"  href="#">Shop</a>
@@ -76,7 +76,7 @@
       <div class="home">
         <!-- Content here -->
         <div class="row">
-          <div class="col lg-6 d-flex flex-column justifiy-content-end">
+          <div class="col lg-6 d-flex flex-column justifiy-content-end py-5">
             <h1 class="heading">Temukan Fashion Yang Paling Cocok Denganmu</h1>
             <p class="subheading py-3 mt-4">Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
             Laboriosam a cupiditate, hic repellendus rem beatae quisquam corrupti repudiandae aliquam sint?</p>
@@ -85,10 +85,10 @@
             </div>
           </div>
           
-          <div class="col lg-6 ms-5 py-lg-0">
-            <div class="card ms-5" style="width: 25rem;">
-               <img src="{{ asset('asset/img/kaos2-removebg-preview.png') }}" alt="" height="400px" width="400px" class="img-fluid" style="border:'none'">
-            </div>
+          <div class="col lg-6 d-flex justify-content-end ms-3 position-relative  py-lg-0  ">
+            
+               <img src="{{ asset('asset/img/kaos2-removebg-preview.png') }}" alt="" height="500px" width="500px" class="img-fluid position-absolute end-0" style="border:'none'">
+            
           </div>
         </div>
         
